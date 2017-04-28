@@ -7,5 +7,4 @@ var exports = module.exports = { };
  */
 exports.getIndex = ( req, res, next ) => {
 	res.sendFile ('index.html');
-	// res.send (response.success ('Hello world from es6 basecamp'));
 }
