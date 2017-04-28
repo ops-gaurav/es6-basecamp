@@ -1,2 +1,1 @@
-node_modules
-bower_component
+node_modules/*
