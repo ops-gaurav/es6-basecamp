@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "babel-node bin/startscript",
-    "dev": "nodemon --exec babel-node index.js"
+    "dev": "nodemon --exec babel-node bin/startscript"
   },
   "keywords": [],
   "author": "gaurav sharma",
@@ -17,6 +17,8 @@
     "nodemon": "^1.11.0"
   },
   "dependencies": {
+    "body-parser": "^1.17.1",
+    "bower": "^1.8.0",
     "express": "^4.15.2",
     "morgan": "^1.8.1"
   }

@@ -28,9 +28,9 @@ var parseAndNormalizePort = (p) => {
 	 */
 	if (isNaN(port)) {
 		/**
-		 * generate a random port number
+		 * use port 4004
 		 */
-		return parseInt(Math.random() * 10000);
+		return parseInt(4004);
 		// processPortValidity (app.get ('port'));
 	} else {
 		return port;
