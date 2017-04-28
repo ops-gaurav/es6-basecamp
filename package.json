@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "babel-node bin/startscript",
-    "dev": "nodemon --exec babel-node bin/startscript"
+    "dev": "nodemon --exec babel-node bin/startscript",
+    "postinstall": "bower install"
   },
   "keywords": [],
   "author": "gaurav sharma",
