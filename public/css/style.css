@@ -4,6 +4,9 @@
 	font-family: Muli;
 	transition: all .25s ease-in-out;
 }
+body {
+  font-family: Muli;
+}
 .loader-container-screen {
 	position: absolute;
 	width: 100%;
